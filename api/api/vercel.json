@@ -1,26 +1,23 @@
 {
   "version": 2,
-  "functions": {
-    "api/*.js": {
-      "maxDuration": 10
-    }
-  },
-  "routes": [
+  "builds": [
     {
-      "src": "/api/webhook",
-      "dest": "/api/webhook.js"
+      "src": "index.html",
+      "use": "@vercel/static"
     },
     {
-      "src": "/api/connect",
-      "dest": "/api/connect.js"
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     },
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "env": {
-    "TELEGRAM_BOT_TOKEN": "@telegram-bot-token",
-    "APP_URL": "@app-url"
-  }
+  ]
 }
