@@ -1,0 +1,22 @@
+{
+  "name": "daily-trend-bias-pro",
+  "version": "1.0.0",
+  "description": "Privacy-First Trading Bias Messenger with Telegram Integration",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site, no build needed'",
+    "dev": "vercel dev"
+  },
+  "keywords": [
+    "trading",
+    "telegram",
+    "alerts",
+    "crypto",
+    "privacy"
+  ],
+  "author": "CryptoArtisty",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
+}
