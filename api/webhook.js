@@ -41,9 +41,7 @@ export default async function handler(req, res) {
         // Handle /start command
         if (messageText === '/start') {
             // Get the app URL
-            const appUrl = process.env.VERCEL_URL 
-                ? `https://${process.env.VERCEL_URL}`
-                : 'https://daily-trend-bias-pro.vercel.app';
+            const appUrl = 'https://daily-trend-bias-pro.vercel.app';
             
             // Generate one-time connection token
             const tokenData = `${chatId}:${Date.now()}`;
