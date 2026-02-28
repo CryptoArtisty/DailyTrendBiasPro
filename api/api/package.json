@@ -1,0 +1,13 @@
+{
+  "name": "trading-bias-messenger",
+  "version": "1.0.0",
+  "description": "Privacy-First Trading Bias Messenger",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
