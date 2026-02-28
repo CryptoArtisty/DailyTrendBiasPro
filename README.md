@@ -1,4 +1,4 @@
-# Trading Bias Messenger - Privacy-First Edition
+# DailyTrendBiasPro - Privacy-First Edition
 
 A zero-knowledge trading bias alert tool with Telegram alerts. Your Chat ID **never leaves your device**.
 
