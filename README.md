@@ -1,0 +1,2 @@
+# DailyTrendBiasPro
+Trading bias app
